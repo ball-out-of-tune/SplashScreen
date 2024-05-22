@@ -29,7 +29,6 @@ fun OnBoardingPage(
 ) {
     Column(
         modifier = modifier,
-        verticalArrangement = Arrangement.SpaceBetween
     ) {
         Image(
             painter = painterResource(id = page.img),
@@ -54,7 +53,7 @@ fun OnBoardingPage(
         )
     }
 }
-@Preview(showBackground = true)
+@Preview(showBackground = false)
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)
 @Composable
 fun OnBoardingPagePreview() {
